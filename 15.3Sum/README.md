@@ -1,6 +1,6 @@
 [3Sum](https://leetcode.com/problems/3sum/)  
 
-- Solution: Two Pointers
-    - It can be teated as 2 sum problem, since the 3 sum needs to be 0, so use -nums[i] as target, and the other 2 numbers do the 2 sum.
-    - Time complexity: O(nlogn)
+- Solution: Three Pointers
+    - Do 2Sum problem n times.
+    - Time complexity: O(n^2)
     - Space complexity: O(1)
